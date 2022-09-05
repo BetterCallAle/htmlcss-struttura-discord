@@ -78,3 +78,31 @@ header{
 }
 /* /jumbotron */
 /* /HEADER */
+
+/* MAIN */
+/* Section 1 */
+section{
+    min-height: 650px;
+    padding: 50px 0;
+}
+
+.flex-container .image{
+    width: 60%;
+    /* debug */
+    background-color: lightskyblue;
+    border:1px dotted black;
+    height: 550px;
+}
+
+.text{
+    width: 40%;
+    /* debug */
+    background-color: pink;
+    border: 1px dotted black;
+}
+/* /Section 1*/
+
+/* Section 2 */
+/* /Section 2 */
+
+/* /MAIN */
