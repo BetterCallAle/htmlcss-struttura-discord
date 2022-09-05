@@ -142,7 +142,6 @@ h1{
     transform: rotate(180deg);
 }
 
-
 /* Section Img and Text */
 main section:nth-child(even){
     background-color: #f6f6f6;
@@ -150,18 +149,7 @@ main section:nth-child(even){
 
 
 section .flex-container{
-    gap: 0 50px;
     padding: 100px 0;
-}
-
-.flex-container .image{
-    width: 60%;
-}
-
-
-.text{
-    width: 40%;
-    margin-left: 5em;
 }
 
 .text h2{
