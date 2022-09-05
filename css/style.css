@@ -68,7 +68,6 @@ header{
     padding: 50px 0;
     /* debug */
     background-color: #00008b;
-    height: 550px;
 }
 
 .jumbotron{
@@ -91,7 +90,6 @@ main section:nth-child(even){
 }
 
 section{
-    min-height: 650px;
     padding: 50px 0;
 }
 
