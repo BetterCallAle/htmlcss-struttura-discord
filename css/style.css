@@ -12,7 +12,7 @@ html{
 }
 
 .container{
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -53,7 +53,7 @@ header{
 /* Nav */
 .header-nav{
     align-items: center;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     color: white;
 }
 
@@ -88,7 +88,8 @@ ul li a{
 .jumbotron-container{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
+    background-repeat: no-repeat;
     padding: 50px 0;
 }
 
@@ -126,13 +127,6 @@ h1{
 /* /HEADER */
 
 /* MAIN */
-
-/* Section Img and Text */
-main section:nth-child(even){
-    background-color: #f6f6f6;
-}
-
-
 .wave{
     background-image: url(../img/wave.svg);
     height: 150px;
@@ -149,8 +143,15 @@ main section:nth-child(even){
 }
 
 
+/* Section Img and Text */
+main section:nth-child(even){
+    background-color: #f6f6f6;
+}
+
+
 section .flex-container{
-    padding: 100px 70px 90px 0px;
+    gap: 0 50px;
+    padding: 100px 0;
 }
 
 .flex-container .image{
