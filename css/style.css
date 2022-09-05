@@ -1,0 +1,61 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* /RESET */
+
+/* COMMON */
+html{
+    font-family: 'Whitney SSm A', 'Whitney SSm B', Arial;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.flex-container{
+    display:flex;
+}
+/* /COMMON */
+
+/* HEADER */
+header{
+    /* debug */
+    background-color: #add8e6;
+    min-height: 300px;
+    padding-top: 20px;
+}
+
+/* Nav */
+.header-nav{
+    /* debug */
+    height: 40px;
+    line-height: 40px;
+}
+
+.header-nav div{
+    width: 25%;
+    /* debug */
+    background-color: orange;
+    border: 1px dotted black;
+}
+
+.header-nav ul{
+    width:50%;
+    list-style: none;
+    justify-content: center;
+    gap: 0 20px;
+    /* debug */
+    background-color: orange;
+    border: 1px dotted black;
+}
+
+.header-nav div:last-child{
+    text-align: end;
+}
+
+/* /nav */
+/* /HEADER */
