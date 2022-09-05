@@ -132,8 +132,25 @@ main section:nth-child(even){
     background-color: #f6f6f6;
 }
 
+
+.wave{
+    background-image: url(../img/wave.svg);
+    height: 150px;
+    opacity: .04;
+}
+
+.wave-bottom{
+    background-position: bottom;
+}
+
+.wave-top{
+    background-position: top;
+    transform: rotate(180deg);
+}
+
+
 section .flex-container{
-    padding: 100px 70px 150px 0px;
+    padding: 100px 70px 90px 0px;
 }
 
 .flex-container .image{
