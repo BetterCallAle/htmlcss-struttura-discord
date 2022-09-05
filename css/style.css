@@ -23,6 +23,15 @@ html{
 .reversed{
     flex-direction: row-reverse;
 }
+
+.cta{
+    font-size: 1.3rem;
+    height: 60px;
+    border: none;
+    border-radius: 45px;
+    padding: 5px;
+    margin-right: 20px;
+}
 /* /COMMON */
 
 /* HEADER */
@@ -94,26 +103,17 @@ h1{
 }
 
 .jumbotron-title p{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 1.8em;
     margin-bottom: 20px;
 }
 
-.cta{
-    font-size: 1.3rem;
-    height: 60px;
-    border: none;
-    border-radius: 45px;
-    padding: 5px;
-    margin-right: 20px;
-}
-
-.mac{
+.jumbotron .mac{
     width: 220px;
     background-color: white;
 }
 
-.browser{
+.jumbotron .browser{
     width: 310px;
     color: white;
     background-color: #23272a;
@@ -126,26 +126,33 @@ h1{
 
 /* Section Img and Text */
 main section:nth-child(even){
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 
 section{
-    padding: 50px 0;
+    /* padding: 50px 0; */
+}
+
+section .flex-container{
+    padding: 100px 70px 100px 0px;
 }
 
 .flex-container .image{
     width: 60%;
-    /* debug */
-    background-color: #1e90ff;
-    border:1px dotted black;
-    height: 550px;
 }
 
 .text{
     width: 40%;
-    /* debug */
-    background-color: #ffc0cb;
-    border: 1px dotted black;
+    margin-left: 5em;
+}
+
+.text h2{
+    font-size:3rem;
+    margin-bottom: 40px;
+}
+
+.text p{
+    font-size: 1.5rem;
 }
 
 /* /Section Img and Text*/
