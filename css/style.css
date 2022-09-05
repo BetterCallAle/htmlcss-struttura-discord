@@ -110,5 +110,12 @@ section{
 
 /* /Section Img and Text*/
 
-
+/* Section 4 */
+.box{
+    /* debug */
+    height: 800px;
+    background-color: green;
+    border: 1px dotted black;
+}
+/* /Section 4 */
 /* /MAIN */
