@@ -111,7 +111,7 @@ section{
 /* /Section Img and Text*/
 
 /* Section 4 */
-.box{
+.section-box{
     /* debug */
     height: 800px;
     background-color: green;
@@ -119,3 +119,40 @@ section{
 }
 /* /Section 4 */
 /* /MAIN */
+
+/* FOOTER */
+footer{
+    min-height: 500px;
+    /* debug */
+    background-color: #23272a;
+}
+
+/* Footer Nav */
+footer nav{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+footer nav .footer-box:first-child{
+    width: 40%;
+    /* debug */
+    background-color: #f08080;
+    border: 1px dotted black;
+    height: 500px;
+}
+
+.footer-box{
+    width: 15%;
+    /* debug */
+    background-color: #20b2aa;
+    border: 1px dotted white;
+}
+
+.footer-info{
+    margin-top: 30px;
+    /* debug */
+    height: 70px;
+    background-color: #7fffd4;
+}
+/* /Footer Nav */
+/* /FOOTER */
