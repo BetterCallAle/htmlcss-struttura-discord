@@ -42,6 +42,7 @@ header{
 }
 
 .header-nav div{
+    padding: 0 20px;
     width: 25%;
     /* debug */
     background-color: orange;
@@ -131,6 +132,7 @@ footer{
 footer nav{
     padding-top: 20px;
     padding-bottom: 50px;
+    border-bottom: 2px solid grey;
 }
 
 footer nav .footer-box:first-child{
@@ -148,11 +150,26 @@ footer nav .footer-box:first-child{
     border: 1px dotted white;
 }
 
+/* /Footer Nav */
+
+/* Footer Info */
 .footer-info{
     margin-top: 30px;
-    /* debug */
+    justify-content: space-between;
+    align-items: center;
     height: 70px;
+    /* debug */
     background-color: #7fffd4;
 }
-/* /Footer Nav */
+
+.footer-logo, .footer-button{
+    height: 35px;
+    width: 70px;
+    text-align: center;
+    line-height: 35px;
+    /* debug */
+    background-color: #ffb6c1;
+    border:1px dotted black;
+}
+/* /Footer Info */
 /* /FOOTER */
