@@ -24,6 +24,16 @@ html{
     flex-direction: row-reverse;
 }
 
+.log-and-sig a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: .9rem;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 20px;
+}
+
 .cta{
     font-size: 1.3rem;
     height: 60px;
@@ -63,21 +73,14 @@ ul li a{
     text-decoration: none;
 }
 
-.header-nav .login{
+.header-nav .sig-in{
     text-align: end;
 }
 
-.login a{
-    display: inline-block;
-    color: black;
-    text-decoration: none;
-    background-color: white;
-    font-size: .9rem;
+.sig-in a{
     width: 70px;
-    height: 35px;
-    line-height: 35px;
-    text-align: center;
-    border-radius: 15px;
+    color: black;
+    background-color: white;
 }
 /* /nav */
 
@@ -202,7 +205,7 @@ footer{
 footer nav{
     padding-top: 60px;
     padding-bottom: 50px;
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid #4f5d8c;
 }
 
 footer nav .footer-box:first-child{
@@ -255,22 +258,17 @@ h3{
 
 /* Footer Info */
 .footer-info{
-    margin-top: 30px;
+    margin-top: 10px;
     justify-content: space-between;
     align-items: center;
     height: 70px;
-    /* debug */
-    background-color: #7fffd4;
 }
 
-.footer-logo, .footer-button{
-    height: 35px;
-    width: 70px;
-    text-align: center;
-    line-height: 35px;
-    /* debug */
-    background-color: #ffb6c1;
-    border:1px dotted black;
+.log-in a{
+    width: 90px;
+    color: white;
+    background-color: #7289da;
 }
+
 /* /Footer Info */
 /* /FOOTER */
